@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e37544dad7.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Liblary</h1>
+    <div id="searchbox">
+        <select name="cat" id="cat">
+            <option value="0" selected disabled>Select Catagory:</option>
+            <option value="name">Name</option>
+            <option value="type">Type</option>
+            <option value="price">Price</option>
+        </select>
+        <input id="search" type="search">
+        <input class="numbers" type="number" id="min" name="max" placeholder="min">
+        <input class="numbers" type="number" id="max" name="max" placeholder="max">
+        <i id="searchicon" class="fas fa-search"></i>
+    </div>
+
+    <div id="newbook">Add Book</div>
+    <div id="addBook">
+        <form id="bookform" action="#">
+            <i id="icon" class="fas fa-times-circle"></i>
+            <h2>New Book Registration</h3>
+                <input id="bookName" type="text" placeholder="Enter book name" required>
+                <input id="bookPrice" type="number" placeholder="Enter book price" required>
+                <input id="bookType" type="text" placeholder="Enter book Type" required>
+                <input id="bookIMG" type="text" placeholder="Enter image url" required>
+                <input id="submitinput" type="submit">
+        </form>
+    </div>
+    <div id="content">
+    </div>
+</body>
+
+</html>

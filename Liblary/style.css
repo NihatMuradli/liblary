@@ -1,0 +1,107 @@
+#newbook {
+    width: 30px;
+    height: 120px;
+    background-color: orange;
+    color: white;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+    top: 50px;
+    right: 0px;
+    display: inline;
+    cursor: pointer;
+}
+
+#addBook {
+    position: fixed;
+    top: 50px;
+    right: 0px;
+    width: 400px;
+    height: 600px;
+    background-color: aqua;
+    display: none;
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 30px;
+    border: 1px solid black;
+
+}
+
+input {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 5px;
+    width: 80%;
+    height: 30px;
+}
+
+#submitinput {
+    width: 25%;
+    text-align: center;
+    background-color: rgb(0, 80, 209);
+    color: white;
+    font-size: 17px;
+}
+
+#icon {
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+}
+
+#content div{
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    margin: 0 30px 30px 0;
+}
+
+#content p{
+    font-size: 30px;
+}
+
+#content img{
+    width: 250px;
+    height: 150px;
+}
+
+.deletebtn{
+    height: 30px;
+    width: 80px;
+    background-color: blue;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-size: 23px;
+}
+
+.delete{
+    display: none;
+}
+
+#searchbox{
+width: auto;
+display: flex;
+justify-content: center;
+margin-bottom: 5px;
+}
+
+#searchicon{
+    font-size: 1.5rem;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#search{
+    width: 200px;
+    height: 30px;
+}
+
+
+.numbers{
+    width: 50px;
+    height: 30px;
+}
